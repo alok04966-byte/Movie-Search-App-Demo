@@ -1,4 +1,4 @@
 # Movie-Search-App-Demo
 This is my first Github Repository on my Hackathon's day.
 <br>
-Author- Alok Bisoyi
+Author- Alok Bisoyi(Scaler)
