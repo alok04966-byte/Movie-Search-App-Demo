@@ -1,1 +1,37 @@
-<p>Hello World!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+  <header>
+    <h1>🎬 Search Movie Info</h1>
+  </header>
+
+  <section class="search-section">
+    <div class="search-box">
+      <input type="text" id="movieInput" placeholder="Search for a movie...">
+        <button id="micBtn" onclick="startVoiceSearch()">🎤</button>
+          <button id="searchBtn" onclick="searchMovie()">
+            <span>🔍</span>Search
+          </button>
+        <button id="theme-toggle">🌙/🌞</button>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <main class="results-section">
+    <div id="movieResult"></div>
+  </main>
+
+  <footer>
+    <p>🚀 “Launching into the cosmos of movies • Hackathon 2025 by Alok”</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
